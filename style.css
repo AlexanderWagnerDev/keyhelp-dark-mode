@@ -375,3 +375,67 @@ code {
     color: #e5e5e5;
     border-color: #2a2a2a;
 }
+/* KeyHelp / Bulma modal – full dark mode */
+.modal.is-active .modal-background {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.modal.is-active .modal-card,
+.modal.is-active .modal-content {
+    background-color: #1b1b1b !important;
+    color: #e5e5e5 !important;
+    border-radius: 4px;
+    border: 1px solid #2a2a2a !important;
+}
+
+/* Header + footer */
+.modal.is-active .modal-card-head,
+.modal.is-active .modal-card-foot {
+    background-color: #1b1b1b !important;
+    border-color: #2a2a2a !important;
+}
+.modal.is-active .modal-card-title {
+    color: #e5e5e5 !important;
+}
+
+/* Body text, labels, help text */
+.modal.is-active .modal-card-body,
+.modal.is-active .modal-card-body h1,
+.modal.is-active .modal-card-body h2,
+.modal.is-active .modal-card-body h3,
+.modal.is-active .modal-card-body label,
+.modal.is-active .modal-card-body p,
+.modal.is-active .modal-card-body .help {
+    background-color: #1b1b1b !important;
+    color: #e5e5e5 !important;
+    opacity: 1 !important;
+}
+
+/* Inputs inside modal */
+.modal.is-active .modal-card-body .input,
+.modal.is-active .modal-card-body .textarea,
+.modal.is-active .modal-card-body .select select {
+    background-color: #181818 !important;
+    border-color: #3a3a3a !important;
+    color: #e5e5e5 !important;
+}
+
+/* Buttons inside modal */
+.modal.is-active .button.is-primary {
+    background-color: #3d7dd9 !important;
+    border-color: #3d7dd9 !important;
+    color: #ffffff !important;
+}
+.modal.is-active .button.is-primary:hover {
+    background-color: #3267b0 !important;
+    border-color: #3267b0 !important;
+}
+.modal.is-active .button {
+    background-color: #262626 !important;
+    border-color: #3a3a3a !important;
+    color: #e5e5e5 !important;
+}
+.modal.is-active .button:hover {
+    background-color: #303030 !important;
+    border-color: #4a4a4a !important;
+}
