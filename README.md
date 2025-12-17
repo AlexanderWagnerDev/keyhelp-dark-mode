@@ -1,7 +1,7 @@
 # KeyHelp Dark Mode – Neutral Gray Theme
 
 This repository provides a custom **dark mode CSS theme** for the KeyHelp control panel.  
-The focus is on a neutral gray look (no strong blue tint), good contrast and readability, including code editors and disabled controls.
+A CSS theme that turns the KeyHelp interface into a dark, neutral gray style with clearly readable text and a customized code editor.
 
 ## Features
 
@@ -41,7 +41,7 @@ You can easily adapt the theme:
 # KeyHelp Dark Mode – Neutrales Grau Theme
 
 Dieses Repository stellt ein benutzerdefiniertes **Dark‑Mode‑CSS‑Theme** für das KeyHelp‑Control‑Panel bereit.  
-Der Schwerpunkt liegt auf einem neutralen Grauton (kein starker Blaustich), gutem Kontrast und guter Lesbarkeit – auch im Code‑Editor und bei deaktivierten Elementen.
+CSS‑Theme, das die KeyHelp‑Oberfläche in einen dunklen, neutralen Graustil mit gut lesbaren Texten und angepasstem Code‑Editor versetzt.
 
 ## Funktionen
 
