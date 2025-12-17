@@ -1,5 +1,5 @@
 /* =========================================================
-   KeyHelp Dark Mode – neutral gray (optimized)
+   KeyHelp Dark Mode
    ========================================================= */
 
 /* Base layout */
@@ -227,16 +227,53 @@ fieldset[disabled] .btn {
     color: #bae6fd;
 }
 
-/* Login page */
-.login-page,
-body.login {
+/* Login: full-page background */
+body.default-mode > main > section.hero.is-primary.is-fullheight {
     background-color: #151515 !important;
+}
+
+/* Login box */
+.hero .box {
+    background-color: #1b1b1b !important;
+    border-radius: 6px !important;
+    border: 1px solid #2a2a2a !important;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.55) !important;
     color: #e5e5e5 !important;
 }
-.login-box,
-.login-card-body {
+
+/* Labels & text inside login box */
+.hero .box .label,
+.hero .box p,
+.hero .box .has-text-link,
+.hero .box .has-text-danger,
+.hero .box small {
+    color: #e5e5e5 !important;
+}
+
+/* Inputs (username / password) */
+.hero .box .input {
     background-color: #181818 !important;
-    border: 1px solid #2a2a2a !important;
+    border: 1px solid #3a3a3a !important;
+    color: #e5e5e5 !important;
+}
+.hero .box .input::placeholder {
+    color: #9ca3af !important;
+}
+
+/* Main login button (Anmelden) + "Anzeigen" button */
+.hero .box .button.is-link {
+    background-color: #3d7dd9 !important;
+    border-color: #3d7dd9 !important;
+    color: #ffffff !important;
+}
+.hero .box .button.is-link:hover {
+    background-color: #3267b0 !important;
+    border-color: #3267b0 !important;
+}
+
+/* Footer text under the box (KeyHelp © …) */
+.has-text-grey-lighter {
+    color: #9ca3af !important;
 }
 
 /* Modals */
@@ -337,26 +374,49 @@ code {
 }
 
 /* Tabs */
-.tabs li a {
-    background-color: #242424 !important;
-    color: #d0d0d0 !important;
+.tabs {
+    border-bottom: 1px solid #2a2a2a !important;
 }
+
+.tabs li a {
+    background-color: transparent !important;
+    color: #d0d0d0 !important;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid transparent;
+    padding: 0.45rem 0.9rem;
+}
+
+/* Normal hover */
+.tabs li a:hover {
+    background-color: #272727 !important;
+    color: #ffffff !important;
+}
+
+/* Active tab (normal) */
 .tabs li.is-active a,
-.tabs li.is-active span {
+.tabs li.is-active a span {
     background-color: #303030 !important;
     color: #ffffff !important;
+    border-color: #3a3a3a !important;
+    border-bottom-color: #303030 !important;
 }
-.tabs li a:hover {
-    background-color: #3a3a3a !important;
-    color: #ffffff !important;
+
+/* Active tab + hover */
+.tabs li.is-active a:hover,
+.tabs li.is-active a:hover span {
+    background-color: #363636 !important;
+    border-color: #454545 !important;
 }
-.tabs li.is-active a:hover {
-    background-color: #444444 !important;
-    color: #ffffff !important;
-}
+
+/* Tab icons follow text color */
 .tabs li a .icon,
 .tabs li.is-active a .icon {
     color: inherit !important;
+}
+
+/* Ensure span uses same background as a */
+.tabs li a span {
+    background-color: inherit !important;
 }
 
 /* Buttons inside content areas (e.g. table actions) */
